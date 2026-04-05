@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>جيب الحكم - حكم وأقوال ملهمة</title>
+    <meta name="description" content="مجموعة كبيرة من أجمل الحكم والأقوال المؤثرة">
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome 6 (free) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <i class="fas fa-gem"></i>
+                <h1>جيب الحكم</h1>
+            </div>
+            <p class="subtitle">حكم وأقوال تنير دربك</p>
+        </header>
+
+        <main>
+            <div class="quote-card" id="quoteCard">
+                <div class="quote-icon">
+                    <i class="fas fa-quote-right"></i>
+                </div>
+                <p class="quote-text" id="quoteText">
+                    <!-- ستظهر الحكمة هنا -->
+                </p>
+                <div class="quote-actions">
+                    <button class="action-btn copy-btn" id="copyBtn" title="نسخ الحكمة">
+                        <i class="fas fa-copy"></i>
+                        <span>نسخ</span>
+                    </button>
+                    <button class="action-btn share-btn" id="shareBtn" title="مشاركة الحكمة">
+                        <i class="fas fa-share-alt"></i>
+                        <span>مشاركة</span>
+                    </button>
+                    <button class="action-btn random-btn" id="randomBtn" title="حكمة أخرى">
+                        <i class="fas fa-sync-alt"></i>
+                        <span>حكمة أخرى</span>
+                    </button>
+                </div>
+            </div>
+            <div class="counter-info">
+                <span id="quoteCounter"></span>
+            </div>
+        </main>
+
+        <footer>
+            <p>❤️ كل يوم حكمة جديدة | من إعداد معتز</p>
+        </footer>
+    </div>
+
+    <div class="toast-message" id="toast">تم النسخ!</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
